@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">quiz_application</string>
+    <string name="welcome">WELCOME!</string>
+    <string name="quiz_app">Quiz App!</string>
+    <string name="name">Name</string>
+    <string name="start">START</string>
+    <string name="hey_congratulations">Hey,Congratulations!</string>
+    <string name="trophy_image">trophy image</string>
+</resources>

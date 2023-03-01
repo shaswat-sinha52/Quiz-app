@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".question_page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/tv_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#363A43"
+            tools:text="Which country this flag belongs to?"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textSize="22sp">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/iv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="flag image"
+            android:layout_marginTop="16dp"
+            tools:src="@drawable/ic_flag_of_india"
+            >
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ProgressBar
+                android:id="@+id/pb_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="8"
+                android:layout_marginLeft="10dp"
+                android:minHeight="50dp"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:progress="0">
+
+            </ProgressBar>
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/pbside_tv_id"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="0/8"
+                android:textSize="16sp"
+                android:gravity="center">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/op1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            tools:text="apple"
+            android:textSize="15sp"
+            android:background="@drawable/borderstyle"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/op2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            tools:text="apple"
+            android:textSize="15sp"
+            android:background="@drawable/borderstyle"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/op3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            tools:text="apple"
+            android:textSize="15sp"
+            android:background="@drawable/borderstyle"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/op4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            tools:text="apple"
+            android:textSize="15sp"
+            android:background="@drawable/borderstyle"
+            >
+
+        </TextView>
+        <Button
+            android:id="@+id/cabtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:background="@color/design_default_color_on_primary"
+            >
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
